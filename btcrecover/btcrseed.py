@@ -2539,8 +2539,8 @@ class WalletSecretNetworkNew(WalletPyCryptoHDWallet):
 
 ############### MultiverseX ###############
 
-@register_selectable_wallet_class('MultiverseX BIP39/44')
-class WalletMultiverseX(WalletPyCryptoHDWallet):
+@register_selectable_wallet_class('MultiversX BIP39/44')
+class WalletMultiversX(WalletPyCryptoHDWallet):
 
     def _verify_seed(self, mnemonic, passphrase = None):
         if passphrase:
